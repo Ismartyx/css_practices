@@ -1,0 +1,56 @@
+body {
+  background-color: #f5f5f5;
+  color: white;
+}
+
+header {
+  background-color: red;
+  height: 70px;
+  padding: 15px;
+  display: flex;
+  /* flex-direction --> row or column; default is row */
+
+  /* align-items --> flex-start, flex-end, center */
+  align-items: center;
+
+  /* justify-content --> center, flex-start, flex-end, space-between, space-around, space-evenly */
+  justify-content: space-between;
+}
+
+main {
+  background-color: purple;
+  /* padding-top padding-right padding-bottom padding-left */
+  /* padding: 10px 5px 10px 5px; */
+  padding: 15px;
+
+  /* margin is same as padding */
+  margin-top: 10px;
+
+  display: flex;
+  /* vh == view port height */
+  height: calc(100vh - 160px);
+}
+
+aside {
+  background-color: blue;
+  padding: 15px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: yellow;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 10px;
+  background: green;
+  height: 70px;
+}

@@ -1,0 +1,61 @@
+body {
+  background-color: #f0f8ff;
+}
+
+header {
+  background-color: azure;
+  border-radius: 50px;
+  font-family: cursive;
+  height: 90px;
+  display: flex;
+  padding: 10px;
+  padding-inline: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.register-button {
+  border-radius: 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-family: cursive;
+}
+
+main {
+  background-color: beige;
+  border-radius: 30px;
+  display: flex;
+  padding: 10px 5px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  height: calc(100vh - 20px);
+}
+
+/* check */
+.selection-content li label input:checked {
+  background-color: red;
+}
+
+.sickness-content {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 20px;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.ads {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+footer {
+  background-color: cornsilk;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+}

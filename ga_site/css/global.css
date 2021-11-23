@@ -1,0 +1,20 @@
+body {
+  background-color: coral;
+}
+
+.videos-table {
+  border: 1px solid black;
+}
+
+.videos-table td {
+  border: 1px solid black;
+}
+
+.mobile-image {
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.text-title {
+  color: #000080;
+}
